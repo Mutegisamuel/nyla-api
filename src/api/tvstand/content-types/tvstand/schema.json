@@ -4,7 +4,8 @@
   "info": {
     "singularName": "tvstand",
     "pluralName": "tvstands",
-    "displayName": "tvstand"
+    "displayName": "tvstand",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,13 +19,17 @@
       "type": "text"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "price": {
+      "type": "biginteger"
     }
   }
 }
