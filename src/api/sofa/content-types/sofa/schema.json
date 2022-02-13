@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sofas",
+  "info": {
+    "singularName": "sofa",
+    "pluralName": "sofas",
+    "displayName": "sofa"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

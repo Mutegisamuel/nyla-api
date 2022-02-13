@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "beds",
+  "info": {
+    "singularName": "bed",
+    "pluralName": "beds",
+    "displayName": "bed",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "price": {
+      "type": "biginteger"
+    }
+  }
+}
